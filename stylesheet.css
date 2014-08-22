@@ -299,9 +299,9 @@ td button{
 	z-index:2;
 }
 .social{display:block;
-	position:absolute;
-	bottom:2.5%;
-	right:4%;
+	position:relative;
+	margin-top:5%;
+	margin-left:60%;
 	height:5%;
 /*	border:1px solid red;
 */	z-index:2;

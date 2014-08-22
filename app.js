@@ -62,18 +62,18 @@ $(document).ready(function(){
     	//prematurely end format
     	formatDone();	
     });
-    // $(".restart").click(function(){
-    // 	$(".rectLeft").css({"display":"none"});
-    // 	$(".rectRight").css({"display":"none"});
-    // 	$(".circleHolder").removeClass("outer1");
-    // 	$(".logo,.mousetext,.pretitle,.title,.top").show();
-    // 	$(".circle").removeClass("inner1");
-    // 	$(".main").addClass("intro");
-    // 	$(".gameover").css({"display":"none"});
-    // 	$(".social").css({"display":"none"});
-    // 	$(".rectLeft").hide();
+    $(".restart").click(function(){
+    	$(".rectLeft").css({"display":"none"});
+    	$(".rectRight").css({"display":"none"});
+    	$(".circleHolder").removeClass("outer1");
+    	$(".logo,.mousetext,.pretitle,.title,.top").show();
+    	$(".circle").removeClass("inner1");
+    	$(".main").addClass("intro");
+    	$(".gameover").css({"display":"none"});
+    	$(".social").css({"display":"none"});
+    	$(".rectLeft").hide();
 
-    // });
+    });
 });
 function formatDone(){
 		$(".rectLeft").css({"width":"35%"});
