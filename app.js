@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    function Player(score,time){
-    	this.score=score;
-    	this.times=time;
-    }
-    var player=new Player(0,0:00);
+    // function Player(score,time){
+    // 	this.score=score;
+    // 	this.times=time;
+    // }
+    // var player=new Player(0,0:00);
     $(".intro").click(function(){
         $(".circleHolder").addClass("outer1");
         $(".circle").addClass("inner1");
