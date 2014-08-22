@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<title>GeoQuiz</title>
+</head>
+<body>
+	<div class="top"></div>
+	<div class="main intro">
+		<div class="pretitle">Its time for...</div>
+		<div class="title">World Geography Bee</div>
+		<div class="logo"></div>
+		<div class="circleHolder">
+			<div class="circle rectHolder">
+				<div class="rectLeft">
+					<div class="instructions">
+						<div class="instructTitle">How to play:</div>
+						<ul class="instructContent">
+							<li>Click on button with correct answer</li>
+							<li>Score most number of points in two minutes</li>
+						</ul>
+						<div class="instructLast"><span class="instructWords">Simple right...?</span><span><button class="instructStart">Race Start!</button></span></div>
+					</div>
+					<div class="questionholder">
+						<div class="questionTitle">
+							Question 
+							<span class="questionCount">1</span>
+							(
+							<span class="pointWorth">5</span>
+							pts) / 50
+						</div>
+						<div class="question">What country is associated with the following image(s)</div>
+						<ul class="choices">
+							<li><button class="answer1">Gambia</button></li>
+							<li><button class="answer2">Chile</button></li>
+							<li><button class="answer3">Australia</button></li>
+							<li><button class="answer4">USA</button></li>
+						</ul>
+						<div class="scoreholder">Score: <span class="score">0</span></div>
+						<div class="timeholder">Time: <span class="time">0:00</span></div>
+						<button class="end">End Game</button>
+					</div>
+					<div class="gameover overleft">
+						<div class="goTitle">Game Over...</div>
+						<div class="scoreholder">Score: <span class="score">0</span></div>
+						<div class="timeholder">Time: <span class="time">0:00</span></div>
+						<div class="ratingholder">Rating is:<span class="rating"><button class="ratingButton">Shameful</button></span></div>
+						<div class="advice">It may be time to retake that remedial geography course again.</div>
+<!-- 						<button class="restart">Play again?</button> -->
+					</div>
+				</div>
+				<div class="rectRight">
+					<div class="imageHolder"></div>
+					<div class="gameover hof overright">
+						<div class="hofTitle">Thinkful WG Hall of Fame</div>
+						<table>
+							<tr>
+								<th>Player: </th>
+								<th>Score: </th>
+								<th>Time: </th>
+							</tr>
+							<tr>
+								<td><button>Hit-Girl</button></td>
+								<td>1000</td>
+								<td>:10</td>
+							</tr>
+							<tr>
+								<td><button>Marion Cobretti</button></td>
+								<td>1000</td>
+								<td>:20</td>
+							</tr>
+							<tr>
+								<td><button>Ivan Danko</button></td>
+								<td>1000</td>
+								<td>:30</td>
+							</tr>
+							<tr>
+								<td><button>Hal Mondo</button></td>
+								<td>1000</td>
+								<td>:40</td>
+							</tr>
+							<tr>
+								<td><button>Big Dave</button></td>
+								<td>1000</td>
+								<td>:50</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mousetext">Click Mouse On Circle To Continue</div>
+
+	</div>
+		<ul class="social">
+			<li class="google">Google+</li>
+			<li class="facebook">Facebook</li>
+			<li class="twitter">Twitter</li>
+			<li class="pinterest">Pinterest</li>
+		</ul>
+</body>
+</html>
+
+<!-- logo will overlay ontop of circle div then disappear as it transitions to rectangle -->
+<!-- rectangle will transition single to 2 separate rectangles-->
+<!-- put text and buttons as overlay in separate boxes within left and right rectangles -->
