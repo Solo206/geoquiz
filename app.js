@@ -163,31 +163,31 @@ function formatRestart(){
 }
 function rateMe(){
 		if (correct<5){
-    		$(".ratingButton").text("Shameful");
+    		$(".ratingButton").html("Shameful");
     		$(".advice").text("It may be time to retake that remedial geography course again.");
     	}
     	else if	(correct<10){
-    		$(".ratingButton").text("Below Average");
+    		$(".ratingButton").html("Below Average");
     		$(".advice").text("Unfortunately, you know less than the average person.");
 
     	}
     	else if (correct<20){
-    		$(".ratingButton").text("Average");
+    		$(".ratingButton").html("Average");
     		$(".advice").text("Congratulations, you know exactly about the same amount as the average person.");
 
     	}
     	else if (correct<28){
-    		$(".ratingButton").text("Pretty Good");
+    		$(".ratingButton").html("Pretty Good");
     		$(".advice").text("Fortunately, you know more than the average person.");
 
     	}
     	else if (correct<30){
-    		$(".ratingButton").text("Awe-some!");
+    		$(".ratingButton").html("Awe-some!");
     		$(".advice").text("You know your countries pretty well, don't you feel good?");
 
     	}
     	else if(correct=30){
-    		$(".ratingButton").text("Genius");
+    		$(".ratingButton").html("Genius");
     		$(".advice").text("Time to call up Alex Trebeck, for Jeopardy.  Because you know your world geography!");
 
     	}
