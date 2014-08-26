@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400' rel='stylesheet' type='text/css'>
@@ -9,21 +10,21 @@
 	<title>GeoQuiz</title>
 </head>
 <body>
-	<div class="top"></div>
-	<div class="main intro">
-		<div class="pretitle">Its time for...</div>
-		<div class="title">World Geography Bee</div>
-		<div class="logo"></div>
+	<div class="first top"></div>
+	<div class="main">
+		<div class="first pretitle">Its time for...</div>
+		<div class="first title">World Geography Bee</div>
+		<div class="first logo"></div>
 		<div class="circleHolder">
 			<div class="circle rectHolder">
 				<div class="rectLeft">
-					<div class="instructions">
-						<div class="instructTitle">How to play:</div>
-						<ul class="instructContent">
+					<div class="instruct instructions">
+						<div class="instruct instructTitle">How to play:</div>
+						<ul class="instruct instructContent">
 							<li>Click on button with correct answer</li>
-							<li>Score most number of points in two minutes</li>
+							<li>Score most number of points in one minutes</li>
 						</ul>
-						<div class="instructLast"><span class="instructWords">Simple right...?</span><span><button class="instructStart">Race Start!</button></span></div>
+						<div class="instruct instructLast"><span class="instructWords">Simple right...?</span><span><button class="instructStart">Race Start!</button></span></div>
 					</div>
 					<div class="questionholder">
 						<div class="questionTitle">
@@ -31,7 +32,7 @@
 							<span class="questionCount">1</span>
 							(
 							<span class="pointWorth">5</span>
-							pts) / 50
+							pts) /30
 						</div>
 						<div class="question">What country is associated with the following image(s)</div>
 						<ul class="choices">
@@ -41,14 +42,16 @@
 							<li><button class="answer aFour">USA</button></li>
 						</ul>
 						<div class="scoreholder">Score: <span class="score">0</span></div>
-						<div class="timeholder">Time: <span class="time">0:00</span></div>
+						<div class="correctholder">Number of correct questions: <span class="correct">0</span>/30</div>
+						<div class="timeholder">Time: <span class="time">1:00</span></div>
 						<button class="end">End Game</button>
 					</div>
 					<div class="gameover overleft">
 						<div class="goTitle">Game Over...</div>
 						<div class="scoreholder">Score: <span class="score">0</span></div>
-						<div class="timeholder">Time: <span class="time">0:00</span></div>
-						<div class="ratingholder">Rating is:<span class="rating"><button class="ratingButton">Shameful</button></span></div>
+						<div class="correctholder">Number of correct questions: <span class="correct">0</span>/30</div>
+						<div class="timeholder">Time: <span class="time">01:00</span></div>
+						<div class="ratingholder">Rating is:<span class="rating"><div class="ratingButton">Shameful</div></span></div>
 						<div class="advice">It may be time to retake that remedial geography course again.</div>
 						<button class="restart">Play again?</button>
 					</div>
@@ -64,36 +67,37 @@
 								<th>Time: </th>
 							</tr>
 							<tr>
-								<td><button>Hit-Girl</button></td>
-								<td>1000</td>
-								<td>:10</td>
+								<td><button class="1stname">Hit-Girl</button></td>
+								<td>150</td>
+								<td class="1sttime">00:50</td>
 							</tr>
 							<tr>
-								<td><button>Marion Cobretti</button></td>
-								<td>1000</td>
-								<td>:20</td>
+								<td><button class="2ndname">Marion Cobretti</button></td>
+								<td>150</td>
+								<td class="2ndtime">00:40</td>
 							</tr>
 							<tr>
-								<td><button>Ivan Danko</button></td>
-								<td>1000</td>
-								<td>:30</td>
+								<td><button class="3rdname">Ivan Danko</button></td>
+								<td>150</td>
+								<td class="3rdtime">00:30</td>
 							</tr>
 							<tr>
-								<td><button>Hal Mondo</button></td>
-								<td>1000</td>
-								<td>:40</td>
+								<td><button class="4thname">Hal Mondo</button></td>
+								<td>150</td>
+								<td class="4thtime">00:20</td>
 							</tr>
 							<tr>
-								<td><button>Big Dave</button></td>
-								<td>1000</td>
-								<td>:50</td>
+								<td><button class="5thname">Big Dave</button></td>
+								<td>150</td>
+								<td class="5thtime">00:10</td>
 							</tr>
 						</table>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mousetext">Click Mouse On Circle To Continue</div>
+		<div class="first mousetext">Click Mouse On Circle To Continue</div>
+		<button class="first next">Next</button>
 
 	</div>
 		<ul class="social">
