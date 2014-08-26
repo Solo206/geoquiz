@@ -126,6 +126,7 @@ function formatQuestion(){
     	realAnswer=questions[qCount-1]["answerFive"];
     	var imageFile=questions[qCount-1]["questionImage"];
     	$(".imageHolder").css({"background":"url("+imageFile+") center center no-repeat"});
+    	$(".imageHolder").css({"background-size":"contain"});
     	
     	//setting timer
 }

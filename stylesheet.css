@@ -136,9 +136,9 @@ html,body{
 	display:block;
 	height:100%;
 	background:none;
-	-webkit-background-size:contain;
-	-moz-background-size:contain;
-	background-size:contain;
+/*	-webkit-background-size:contain;
+	-moz-background-size:contain;*/
+	background-size:100px 100px;
 	background-repeat:no-repeat;
  background-position: 50% 50% center;
 }
