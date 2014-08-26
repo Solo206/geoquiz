@@ -136,6 +136,8 @@ html,body{
 	display:block;
 	height:100%;
 	background:none;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
 	background-size:contain;
 	background-repeat:no-repeat;
  background-position: 50% 50% center;
