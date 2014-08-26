@@ -136,7 +136,7 @@ html,body{
 	display:block;
 	height:100%;
 	background:none;
-	background-size:auto;
+	background-size:contain;
 	background-repeat:no-repeat;
  background-position: 50% 50% center;
 }
